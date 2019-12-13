@@ -25,15 +25,21 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+    It helps create LARGE applications using components with ease.
 - [ ] What does it mean to _think_ in react?
+    Building Big applications by breaking them down into smaller steps
+    1)Break The UI Into A Component Hierarchy
+    2)Build A Static Version in React
+    3)Identify The Minimal (but complete) Representation Of UI State
+    4)Identify Where Your State Should Live
+    5)Add Inverse Data Flow
 
 - [ ] Describe state.
-
+    state has two values, which is current state of an item being used and changed/updated state of an item
 - [ ] Describe props.
-
+    props used for a child to inheret from a parent.
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+    side effect is used depending when you want perticular code to execude. To be able to use effect element, you need to play the code you want to use inside of a side effect function.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
